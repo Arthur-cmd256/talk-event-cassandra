@@ -13,6 +13,7 @@ public class User {
   private String name;
   private int age;
   private String email;
+  private UUID addressId;
 
   public UUID getId() {
     return id;
@@ -46,4 +47,11 @@ public class User {
     this.email = email;
   }
 
+  public UUID getAddressId() {
+    return addressId;
+  }
+
+  public void setAddressId(UUID addressId) {
+    this.addressId = addressId;
+  }
 }
